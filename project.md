@@ -25,8 +25,9 @@
 文字条件，一致文字条件和不一致文字条件
 
 #### 4 样本数据分析
-
-
+![](http://images.cronusliang.me/ML/statistics/sample_data_1.png)
+Incongruent情况下所用时间均大于Congruent情况
+![](http://images.cronusliang.me/ML/statistics/sample_data_2.png)
 
 #### 5 假设和检验方法
 
@@ -74,7 +75,7 @@
 
 - 标准误差
 
-       s<sub>em</sub> = s/√n = 4.86 /√24 = 0.99
+    s<sub>em</sub> = s/√n = 4.86 /√24 = 0.99
 
 - t统计量  
 
@@ -82,20 +83,21 @@
 
 - t临界值   
    根据t分布图 t位于临界区
-   ![](http://images.cronusliang.me/ML/statistics/t%28project%29.png)
+   ![](http://images.cronusliang.me/ML/statistics/t%28project%291.png)
+
 
     p<.05 这些结果具有统计显著性。因为p值小于0.05也就是说我们拒绝了零假设。
 
 - cohen's d 
 
-       d = （μ<sub>incon</sub> - μ<sub>con</sub>）/s = 7.97/4.86 = 1.63
+    d = （μ<sub>incon</sub> - μ<sub>con</sub>）/s = 7.97/4.86 = 1.63
 
 - 效应量 r<sup>2</sup>   
-  r<sup>2</sup> = t<sup>2</sup>/(t<sup>2</sup> + df) = (8.05)^2/((-8.05)^2 + 23) = .74
+    r<sup>2</sup> = t<sup>2</sup>/(t<sup>2</sup> + df) = (8.05)^2/((-8.05)^2 + 23) = .74
 
 - 置信区间
 
-   CI:M<sub>D</sub> ± t<sub>critical</sub>(s/√n) = (5.92,10.02)
+    CI:M<sub>D</sub> ± t<sub>critical</sub>(s/√n) = (5.92,10.02)
 
 ### 结论
 
