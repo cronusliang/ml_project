@@ -25,10 +25,10 @@
 文字条件，一致文字条件和不一致文字条件
 
 #### 4 样本数据分析
-![](http://images.cronusliang.me/ML/statistics/sample_data_1.png)
+![](http://images.cronusliang.me/ML/statistics/sample_data_1.png)  
 Incongruent情况下所用时间均大于Congruent情况
-![](http://images.cronusliang.me/ML/statistics/sample_data_2.png)
 
+![](http://images.cronusliang.me/ML/statistics/sample_data_3.png)
 #### 5 假设和检验方法
 
 虽然这个数据来自某个样本，但是我们假设它代表了整个总体情况，所以 “一致”情况的总体均值 μ<sub>con</sub> ;不一致情况的总体均值μ<sub>incon</sub> 
