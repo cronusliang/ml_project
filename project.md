@@ -24,15 +24,19 @@
 
 文字条件，一致文字条件和不一致文字条件
 
-#### 4 假设和检验方法
+#### 4 样本数据分析
+
+
+
+#### 5 假设和检验方法
 
 虽然这个数据来自某个样本，但是我们假设它代表了整个总体情况，所以 “一致”情况的总体均值 μ<sub>con</sub> ;不一致情况的总体均值μ<sub>incon</sub> 
 
 - 设立假设
 
- null -> H<sub>0</sub> (零假设): 两种情况下，“一致”情况和“不一致”情况没有显著差异(μ<sub>con</sub> = μ<sub>incon</sub>)   
+ null -> H<sub>0</sub> (零假设): “一致”情况和“不一致”情况说出同等大小的列表中的墨色名称的时间没有显著差异(μ<sub>con</sub> = μ<sub>incon</sub>)   
 
- ALL ->  H<sub>a</sub> (对立假设)：两种情况下，“一致”情况和“不一致”情况有显著差异
+ ALL ->  H<sub>a</sub> (对立假设)：“一致”情况和“不一致”情况说出同等大小的列表中的墨色名称的时间有显著差异
 (μ<sub>con</sub> ≠ μ<sub>incon</sub>)  
 
 - 检验类型    
@@ -63,17 +67,18 @@
 
 - 根据样本数据算出 
   ​	
-  μ<sub>con</sub> - μ<sub>incon</sub> = 14.05 - 22.02 = - 7.97
+  μ<sub>incon</sub> - μ<sub>con</sub> =  22.02 -14.05= 7.97
 
 - 标准偏差
-  根据样本数据算出 s = 9.48 
+  根据样本数据算出 s = 4.86
 
 - 标准误差
 
-       s<sub>em</sub> = s/√n = 9.48 /√24 = 1.94
+       s<sub>em</sub> = s/√n = 4.86 /√24 = 0.99
+
 - t统计量  
 
-    t= (μ<sub>con</sub> - μ<sub>incon</sub>)/(s/√n) = - 7.97/1.94 = -4.11
+    t= (μ<sub>incon</sub> - μ<sub>con</sub>)/(s/√n) = 7.97/0.99 = 8.05
 
 - t临界值   
    根据t分布图 t位于临界区
@@ -83,14 +88,14 @@
 
 - cohen's d 
 
-       d = （x̄<sub>con</sub> - x̄<sub>incon</sub>）/s = -7.97/9.48 = -0.84
+       d = （μ<sub>incon</sub> - μ<sub>con</sub>）/s = 7.97/4.86 = 1.63
 
 - 效应量 r<sup>2</sup>   
-  r<sup>2</sup> = t<sup>2</sup>/(t<sup>2</sup> + df) = (-4.11)^2/((-4.11)^2 + 23) = .42
+  r<sup>2</sup> = t<sup>2</sup>/(t<sup>2</sup> + df) = (8.05)^2/((-8.05)^2 + 23) = .74
 
 - 置信区间
 
-   CI:M<sub>D</sub> ± t<sub>critical</sub>(s<sub>D</sub>/√n) = (-8.79,-7.15)
+   CI:M<sub>D</sub> ± t<sub>critical</sub>(s/√n) = (5.92,10.02)
 
 ### 结论
 
